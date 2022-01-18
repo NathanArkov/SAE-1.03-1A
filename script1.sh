@@ -62,7 +62,6 @@ do
         echo "Analyse de l'espace disque effectuée. Augmentation de l'espace utilisé de $delta_hier %. Tout va bien !" >> "$date/INVENTAIRE-STOCKAGE-$user"
     fi
     
-    rm "$date/RAPPORT-STOCKAGE-$user"
     
 done < "$userlist"
 
